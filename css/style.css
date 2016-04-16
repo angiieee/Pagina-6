@@ -1,0 +1,23 @@
+.page img {
+	width: 100%;
+	z-index: -2;
+	position: absolute;
+	position: fixed;
+}
+
+.page p {
+	padding-top: 20px;
+	padding-right: 300px;
+	font-family: Jeles;
+	font-size: 20pt;
+	text-align: center;
+	color: #3da981;
+}
+
+.script {
+	width: 700px;
+	padding-left: 200px;
+	padding-top: 20px;
+	font-family: Jeles;
+	text-align: center;
+]

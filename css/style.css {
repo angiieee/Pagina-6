@@ -1,0 +1,5 @@
+.page img {
+	width: 1000px;
+	z-index: -2;
+	position: relative;
+}

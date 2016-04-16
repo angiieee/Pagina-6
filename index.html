@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    
+    <!-- Bootstrap core CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+
+     <title>ZenThinking</title>
+
+    <style>
+    @font-face { font-family: Jeles; src: url('Jeles Regular.otf'); } </style>
+
+</head>
+
+<body>
+
+  <div class="page">
+  <img src="images/zen.jpg"/>
+  <p>....Las palabras son ilusiones.</p>
+  </div>
+
+<div class="script">
+  <script type="text/javascript">
+   var total_images = 4;
+   var random_number = Math.floor((Math.random()*total_images));
+   var random_img = new Array();
+   var random_text = [];
+
+   random_img[0] = '<img src="images/1.jpg" />';
+   random_text[0] = 'Las malas acciones dan lugar a dificultades y las buenas acciones dan lugar a bendiciones.';
+   random_img[1] = '<img src="images/2.jpg" />';
+   random_text[1] = 'Nuestra naturaleza es la mente. Y la mente es nuestra naturaleza.';
+   random_img[2] = '<img src="images/3.jpg" />';
+   random_text[2] = 'Cuando el corazón es puro, en el universo todo es puro.';
+   random_img[3] = '<img src="images/4.jpg" />';
+   random_text[3] = 'Las nubes no disminuyen el azul del cielo, ni la luz del Sol, ni la de la Luna.';
+
+   document.write(random_img[random_number] + ' <br/><p>' + random_text[random_number] + '</p>');
+</script>
+</div>
+
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
